@@ -24,7 +24,10 @@ def draw_for_n(n, length):
         right(angle_for_n(n))
 
 shape("turtle")
-for i in range(3, 100):
+speed(0)
+tracer(False)
+for i in range(3, 1000):
+    right(6)
     draw_for_n(i, 10)
 
 
